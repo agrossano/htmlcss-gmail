@@ -1,0 +1,103 @@
+body {
+
+  color: white;
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  background-size:cover;
+}
+
+.centrale {
+  width: 27%;
+  margin: auto;
+
+}
+
+
+header {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+/* div logo */
+.logo {
+  padding-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+/* proprietà logo */
+.gmail {
+  width: 100px;
+  height:auto;
+  vertical-align: middle;
+}
+
+/* form ricerca + risposta */
+.search {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 23px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* campo ricerca mail */
+.text {
+  width: 140px;
+}
+
+.search div {
+  padding-top: 25px;
+}
+.search span {
+  display: inline-block;
+  padding: 12px;
+  background-color: #f3a83c;
+  border-radius: 100%;
+}
+
+
+
+.mail-list {
+  padding: 10px 0px 7px 0px;
+  color: #8b8b8b;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.oggetto-mail {
+  color: black;
+  font-weight: bold;
+
+}
+
+.read {
+  padding: 3px 0px;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+}
+
+.read:hover {
+  border: 1px solid grey;
+
+}
+
+.unread {
+  padding: 3px 0px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.unread:hover {
+  border: 1px solid grey;
+}
+
+footer {
+  font-weight: 900;
+  font-size: 32px;
+  text-align: center;
+}
+
+.powered {
+  font-style: italic;
+  font-size: 20px;
+
+}
